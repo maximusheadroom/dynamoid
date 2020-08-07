@@ -40,6 +40,7 @@ Gem::Specification.new do |spec|
     'changelog_uri'     => "https://github.com/Dynamoid/dynamoid/tree/v#{Dynamoid::VERSION}/CHANGELOG.md",
     'source_code_uri'   => "https://github.com/Dynamoid/dynamoid/tree/v#{Dynamoid::VERSION}",
     'documentation_uri' => "https://rubydoc.info/gems/dynamoid/#{Dynamoid::VERSION}",
+    'allowed_push_host' => 'https://artifactory.euw.platformservices.io/artifactory/api/gems/sbg-ipe-gems-local'
   }
 
   spec.add_runtime_dependency 'activemodel',      '>=4'
